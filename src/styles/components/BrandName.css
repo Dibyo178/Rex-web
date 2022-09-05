@@ -1,0 +1,22 @@
+.brand {
+  cursor: pointer;
+}
+.brand .rex {
+  width: 28%;
+  height: 27%;
+  margin-left: 10%;
+}
+
+.footer span {
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 700px) {
+  .brand > .rex {
+    width: 20%;
+    height: 20%;
+    margin-left: -0.3%;
+    padding: 0.8rem;
+  }
+}/*# sourceMappingURL=BrandName.css.map */

@@ -1,0 +1,75 @@
+button {
+  color: white;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+}
+button svg {
+  margin-left: 0.5rem;
+  font-size: large;
+}
+
+.blue {
+  background-color: #410ba5;
+  transition: 0.4s ease-in-out;
+}
+.blue:hover {
+  background-color: white;
+  border: 0.1rem solid #410ba5;
+  color: #410ba5;
+}
+
+.pink {
+  background-color: #f32a8f;
+  transition: 0.4s ease-in-out;
+}
+.pink:hover {
+  background-color: white;
+  border: 0.1rem solid #f32a8f;
+  color: #f32a8f;
+}
+
+.inverse {
+  background-color: white;
+  color: #f32a8f;
+  border: #f32a8f 0.1rem solid;
+  transition: 0.4s ease-in-out;
+}
+.inverse:hover {
+  background-color: #f32a8f;
+  border: 0.1rem solid transparent;
+  color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  button {
+    font-size: 1.5rem;
+    padding: 1.5rem 1.5rem;
+  }
+  button svg {
+    font-size: small;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  button {
+    font-size: 1.3rem;
+    padding: 1.5rem 1.5rem;
+  }
+  button svg {
+    font-size: small;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  button {
+    font-size: 0.7rem;
+    padding: 0.8rem;
+    white-space: nowrap;
+  }
+}/*# sourceMappingURL=Button.css.map */

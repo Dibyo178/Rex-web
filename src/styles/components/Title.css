@@ -1,0 +1,26 @@
+.title {
+  margin-bottom: 2rem;
+}
+.title h2 {
+  margin-bottom: 0.7rem;
+  font-size: xx-large;
+  color: rgb(18, 18, 88);
+}
+.title div {
+  height: 0.3rem;
+  width: 3rem;
+  border-radius: 0.1rem;
+}
+.title div .blue {
+  background-color: rgb(18, 18, 88);
+}
+.title div .pink {
+  background-color: #f32a8f;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=Title.css.map */

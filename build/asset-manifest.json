@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c4431f5d.chunk.css",
+    "main.js": "./static/js/main.143fa67b.chunk.js",
+    "main.js.map": "./static/js/main.143fa67b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8bc37af7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8bc37af7.js.map",
+    "static/js/2.1f83eebf.chunk.js": "./static/js/2.1f83eebf.chunk.js",
+    "static/js/2.1f83eebf.chunk.js.map": "./static/js/2.1f83eebf.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.c4431f5d.chunk.css.map": "./static/css/main.c4431f5d.chunk.css.map",
+    "static/js/2.1f83eebf.chunk.js.LICENSE.txt": "./static/js/2.1f83eebf.chunk.js.LICENSE.txt",
+    "static/media/about.gif": "./static/media/about.6efa2963.gif",
+    "static/media/blogImage2.9b1700ef.jpg": "./static/media/blogImage2.9b1700ef.jpg",
+    "static/media/blogImage3.faeaff90.jpg": "./static/media/blogImage3.faeaff90.jpg",
+    "static/media/Why.scss": "./static/media/check-circle.48410f2a.svg",
+    "static/media/coinbond.59b0e74d.png": "./static/media/coinbond.59b0e74d.png",
+    "static/media/rex.gif": "./static/media/rex.d1a86e5a.gif",
+    "static/media/rex.png": "./static/media/rex.ff1b394d.png",
+    "static/media/work.1948bdf6.svg": "./static/media/work.1948bdf6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bc37af7.js",
+    "static/js/2.1f83eebf.chunk.js",
+    "static/css/main.c4431f5d.chunk.css",
+    "static/js/main.143fa67b.chunk.js"
+  ]
+}

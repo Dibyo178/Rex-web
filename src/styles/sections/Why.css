@@ -1,0 +1,98 @@
+.why-container {
+  min-height: 50vh;
+}
+.why-container .container {
+  margin: 0 10%;
+  padding: 5rem 0;
+}
+.why-container .container .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.why-container .container .top .title {
+  margin-bottom: 1rem;
+}
+.why-container .container .top .subTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why-container .container .top .subTitle p {
+  width: 65%;
+  text-align: center;
+  color: #5b595f;
+}
+.why-container .container .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+}
+.why-container .container .content .reasons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.why-container .container .content .reasons ul {
+  width: 80%;
+  list-style-type: none;
+}
+.why-container .container .content .reasons ul li {
+  color: #5b595f;
+  margin-bottom: 1.5rem;
+  padding-left: 45px;
+  position: relative;
+}
+.why-container .container .content .reasons ul li::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../assets/check-circle.svg");
+  background-repeat: no-repeat;
+}
+.why-container .container .content .video img {
+  height: 18rem;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .why-container .container .top .subTitle p {
+    font-size: 1.6rem;
+  }
+  .why-container .container .content {
+    grid-template-columns: 1fr;
+  }
+  .why-container .container .content .reasons ul li {
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+  }
+  .why-container .container .content .reasons ul li::before {
+    top: 0px;
+  }
+  .why-container .container .content .video img {
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .why-container .container .top .subTitle p {
+    font-size: 1.6rem;
+  }
+  .why-container .container .content .reasons ul li {
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+  }
+  .why-container .container .content .reasons ul li::before {
+    top: 0px;
+  }
+  .why-container .container .content .video img {
+    height: 100%;
+  }
+}/*# sourceMappingURL=Why.css.map */

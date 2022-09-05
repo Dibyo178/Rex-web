@@ -1,0 +1,45 @@
+.blog-container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  transition: 0.4s ease-in-out;
+}
+.blog-container:hover {
+  box-shadow: rgba(243, 42, 143, 0.1843137255) 5px 5px, rgba(243, 42, 143, 0.1176470588) 10px 10px, rgba(243, 42, 143, 0.0078431373) 15px 15px;
+}
+.blog-container .image {
+  height: 12rem;
+}
+.blog-container .image img {
+  height: 12rem;
+  width: 100%;
+}
+.blog-container .content {
+  padding: 1rem;
+}
+.blog-container .content .title h3 {
+  color: rgb(18, 18, 88);
+}
+.blog-container .content .subTitle p {
+  color: #5b595f;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .blog-container .image {
+    height: 20rem;
+  }
+  .blog-container .image img {
+    height: 20rem;
+  }
+  .blog-container .content {
+    padding: 2rem;
+  }
+  .blog-container .content .title h3 {
+    font-size: 3rem;
+  }
+  .blog-container .content .subTitle p {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=Blog.css.map */
